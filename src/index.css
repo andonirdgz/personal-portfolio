@@ -1,16 +1,16 @@
 @font-face {
   font-family: "Montserrat-Regular";
-  src: url("./fonts/Montserrat/Montserrat-Regular.ttf");
+  src: url("./assets/fonts/Montserrat/Montserrat-Regular.ttf");
 }
 
 @font-face {
   font-family: "Montserrat-Medium";
-  src: url("./fonts/Montserrat/Montserrat-Medium.ttf");
+  src: url("./assets/fonts/Montserrat/Montserrat-Medium.ttf");
 }
 
 @font-face {
   font-family: "Montserrat-Bold";
-  src: url("./fonts/Montserrat/Montserrat-Bold.ttf");
+  src: url("./assets/fonts/Montserrat/Montserrat-Bold.ttf");
 }
 
 body {
@@ -20,4 +20,17 @@ body {
     "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+:root {
+  /* TEXT COLORS */
+  --text-color-white: #fff;
+  --text-color-gray: #514d4e;
+
+  /* FONT SIZES */
+  --font-size-big: 4.0625rem;
+
+  /* FONT WEIGHT */
+  --font-weight-bold: 700;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
 }
