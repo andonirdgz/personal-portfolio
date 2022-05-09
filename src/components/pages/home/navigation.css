@@ -1,0 +1,120 @@
+nav {
+  font-weight: var(--font-weight-bold);
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 25.875rem;
+  text-align: left;
+  animation: animate-nav 0.3s 1.9s forwards;
+}
+
+nav > a,
+nav > a:after,
+nav > a:visited {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+  display: block;
+}
+
+.label-name:after {
+  content: "andoni";
+  text-transform: uppercase;
+  font-size: var(--font-size-big);
+  font-weight: var(--font-weight-bold);
+}
+
+.label-name:hover:after {
+  content: "About";
+  text-transform: uppercase;
+  font-size: var(--font-size-big);
+  color: var(--text-color-gray);
+  font-weight: var(--font-weight-bold);
+}
+
+.label-lastname:after {
+  content: "rodriguez";
+  text-transform: uppercase;
+  font-size: var(--font-size-big);
+  font-weight: var(--font-weight-bold);
+}
+
+.label-lastname:hover:after {
+  content: "Work";
+  text-transform: uppercase;
+  font-size: var(--font-size-big);
+  color: var(--text-color-gray);
+  font-weight: var(--font-weight-bold);
+}
+
+.label-occupation:after {
+  content: "software developer";
+  text-transform: capitalize;
+  font-size: 1.3125rem;
+  font-weight: var(--font-weight-regular);
+}
+
+.label-occupation:hover:after {
+  content: "Contact";
+  text-transform: capitalize;
+  font-size: 1.3125rem;
+  color: var(--text-color-gray);
+  font-weight: var(--font-weight-regular);
+}
+
+/* MENU LINKS ANIMATIONS */
+.animate {
+  -webkit-animation: animate 1s cubic-bezier(0.2, 0.6, 0.2, 1);
+  -moz-animation: animate 1s cubic-bezier(0.2, 0.6, 0.2, 1);
+  animation: animate 1s cubic-bezier(0.2, 0.6, 0.2, 1);
+  -webkit-animation-fill-mode: backwards;
+  -moz-animation-fill-mode: backwards;
+  animation-fill-mode: backwards;
+  animation-delay: 1s;
+}
+
+/* @-webkit-keyframes animate {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+} */
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: translateX(-80vh);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@keyframes animate-nav {
+  0% {
+    margin-left: 0;
+  }
+
+  100% {
+    margin-left: 3.75rem;
+  }
+}
+
+.on-hover-40,
+.on-hover--40 {
+  transition: all 0.4s cubic-bezier(0.2, 0.6, 0.2, 1);
+}
+.on-hover-40:hover {
+  margin-left: 40px;
+  transition: all 0.4s cubic-bezier(0.2, 0.6, 0.2, 1);
+}
+.on-hover--40:hover {
+  margin-left: -40px;
+  transition: all 0.4s cubic-bezier(0.2, 0.6, 0.2, 1);
+}

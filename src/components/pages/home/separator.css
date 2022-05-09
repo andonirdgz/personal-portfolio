@@ -1,0 +1,20 @@
+.separator {
+  /* position: absolute; */
+  height: 11.875rem;
+  width: 0.1875rem;
+  background-color: #ffffff;
+  visibility: hidden;
+  animation: draw-separator 0.3s 0.5s forwards;
+  margin-left: 3.75rem;
+}
+@keyframes draw-separator {
+  0% {
+    visibility: visible;
+    height: 0;
+  }
+
+  100% {
+    visibility: visible;
+    height: 11.875rem;
+  }
+}
