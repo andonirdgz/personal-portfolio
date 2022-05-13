@@ -73,17 +73,6 @@ nav > a:visited {
   animation-delay: 1s;
 }
 
-/* @-webkit-keyframes animate {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(100%);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0%);
-  }
-} */
-
 @keyframes animate {
   0% {
     opacity: 0;
@@ -96,6 +85,7 @@ nav > a:visited {
   }
 }
 
+/* NAV MARGIN ANIMATION */
 @keyframes animate-nav {
   0% {
     margin-left: 0;

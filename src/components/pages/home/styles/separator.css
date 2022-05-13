@@ -1,5 +1,4 @@
 .separator {
-  /* position: absolute; */
   height: 11.875rem;
   width: 0.1875rem;
   background-color: #ffffff;
@@ -7,6 +6,7 @@
   animation: draw-separator 0.3s 0.5s forwards;
   margin-left: 3.75rem;
 }
+
 @keyframes draw-separator {
   0% {
     visibility: visible;
