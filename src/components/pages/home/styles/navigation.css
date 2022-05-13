@@ -3,7 +3,7 @@ nav {
   position: relative;
   display: block;
   overflow: hidden;
-  width: 25.875rem;
+  width: 28rem;
   text-align: left;
   animation: animate-nav 0.3s 1.9s forwards;
 }
