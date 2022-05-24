@@ -37,6 +37,7 @@ body {
 
   /* FONT SIZES */
   --font-size-big: 4.0625rem;
+  --font-size-big-mobile: 10px;
 
   /* FONT WEIGHT */
   --font-weight-bold: 700;

@@ -1,0 +1,46 @@
+@media (max-width: 390px) {
+  .label-name:after {
+    content: "andoni";
+    text-transform: uppercase;
+    font-size: var(--font-size-big-mobile);
+    font-weight: var(--font-weight-bold);
+  }
+
+  .label-name:hover:after {
+    content: "About";
+    text-transform: uppercase;
+    font-size: var(--font-size-big-mobile);
+    color: var(--text-color-gray);
+    font-weight: var(--font-weight-bold);
+  }
+
+  .label-lastname:after {
+    content: "rodriguez";
+    text-transform: uppercase;
+    font-size: var(--font-size-big-mobile);
+    font-weight: var(--font-weight-bold);
+  }
+
+  .label-lastname:hover:after {
+    content: "Work";
+    text-transform: uppercase;
+    font-size: var(--font-size-big-mobile);
+    color: var(--text-color-gray);
+    font-weight: var(--font-weight-bold);
+  }
+
+  .label-occupation:after {
+    content: "software developer";
+    text-transform: capitalize;
+    font-size: var(--font-size-big-mobile);
+    font-weight: var(--font-weight-regular);
+  }
+
+  .label-occupation:hover:after {
+    content: "Contact";
+    text-transform: capitalize;
+    font-size: var(--font-size-big-mobile);
+    color: var(--text-color-gray);
+    font-weight: var(--font-weight-regular);
+  }
+}
